@@ -22,6 +22,7 @@ a{
 }
 .flixble{
     display: flex;
+    
 }
 .half-width{
     margin:30px 85px;
@@ -42,6 +43,7 @@ a{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position:right;
+   
     
 }
 .padding{
@@ -55,8 +57,13 @@ a{
     font-size: 40px;
 }
 .box-shadow{
-    box-shadow: 5px 5px 20px gray;
-    padding: 30px 10px;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 40px gray;
+    padding-left: 20px;
+  
+    m
 }
 .width{
     width: 100%;
@@ -73,9 +80,18 @@ a{
     border-image: linear-gradient(blue,#09cce6);
     border-image-slice: 1;
 }
-.last-imageadd{
+footer{
+    text-align: center;
+    color: gray;
+    font-weight: lighter;
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+ .image{
     background-image: url(images/exp-bg.png);
     background-repeat: no-repeat;
-    position: left;
+    background-position: left;
+    
+   
+ }   
 
-}
